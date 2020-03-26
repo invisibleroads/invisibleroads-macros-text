@@ -1,6 +1,6 @@
 import re
 
-from .whitespace import compact_whitespace
+from .spaces import compact_whitespace
 
 
 UPPER_LOWER_PATTERN = re.compile(r'(.)([A-Z][a-z]+)')

@@ -1,2 +1,4 @@
-from .key import normalize_key  # noqa
-from .whitespace import compact_whitespace  # noqa
+from .keys import normalize_key
+from .spaces import compact_whitespace
+
+# flake8: noqa: E401
